@@ -6,6 +6,19 @@
   padding: 5px;
 }
 .offer {
+  text-align: center;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
 }
+/* List Offer */
+.list-photos {
+  max-width: 80%;
+}
+/* Desktipsi Offer */
+/* .list-photos h4 {
+  padding: 0 0 0 80px;
+}
+.photo {
+  max-width: 70%;
+} */

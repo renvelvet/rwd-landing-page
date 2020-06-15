@@ -1,23 +1,22 @@
-.jumbotron {
-  height: 500px;
-  color: aliceblue;
-}
-h1,
-h2 {
-  padding-top: 200px;
-  margin-bottom: -200px;
-  padding-left: 50px;
-}
-
-h3 {
-  padding: 0 20px;
-  font-size: 25px;
-}
+/* Header */
 header {
   background-image: url(https://www.gstatic.com/bfe/apps/website/img/h/71194643-coffee-1440.jpg);
   background-size: cover;
 }
-
+.jumbotron {
+  height: 500px;
+  color: aliceblue;
+}
+.jumbotron .desc-jumbotron {
+  padding-top: 200px;
+  margin-bottom: -200px;
+  padding-left: 50px;
+}
+/* Navbar */
+h3 {
+  padding: 0 20px;
+  font-size: 25px;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -32,29 +31,70 @@ li {
   display: inline;
   padding: 0 20px 0 20px;
 }
+
+/* Content */
+.content {
+  display: flex;
+  flex-direction: column;
+}
+/* Judul "WHAT WE OFFER" */
 .block-offer h1 {
   text-align: center;
   display: block;
   padding: 20px 60px;
 }
-section {
-  padding-top: 250px;
-}
+/* Container list photo di bagian offering */
 .offer {
   display: flex;
   justify-content: center;
 }
+/* Deskripsi Offer yang gambarnya beda ukuran */
 #tambah-margin {
   margin-top: 80px;
   margin-left: 20px;
 }
+/* List Offer */
 .list-photos {
   max-width: 30%;
   height: 80px;
 }
+/* Desktipsi Offer */
 .list-photos h4 {
   padding: 0 0 0 80px;
 }
 .photo {
   max-width: 70%;
 }
+
+/* Branch */
+.block-branch {
+  text-align: center;
+  display: block;
+  padding: 20px 60px;
+  margin-top: 300px;
+  background: pink;
+}
+/* Container list photo di bagian OUR SHOP */
+.branch {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+/* Deskripsi Offer yang gambarnya beda ukuran */
+#tambah-margin {
+  margin-top: 80px;
+  margin-left: 20px;
+}
+/* List Offer */
+.branch-photos {
+  margin: 20px 20px;
+}
+/* Desktipsi Offer */
+.list-photos h4 {
+  padding: 0 0 0 80px;
+}
+.photo {
+  max-width: 70%;
+}
+
+/* Footer */

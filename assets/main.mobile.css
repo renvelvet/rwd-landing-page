@@ -1,0 +1,11 @@
+/* .navbar h3 {
+  font-size: 36px;
+} */
+.navbar li {
+  display: block;
+  padding: 5px;
+}
+.offer {
+  display: flex;
+  flex-direction: column;
+}

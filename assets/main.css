@@ -1,0 +1,60 @@
+.jumbotron {
+  height: 500px;
+  color: aliceblue;
+}
+h1,
+h2 {
+  padding-top: 200px;
+  margin-bottom: -200px;
+  padding-left: 50px;
+}
+
+h3 {
+  padding: 0 20px;
+  font-size: 25px;
+}
+header {
+  background-image: url(https://www.gstatic.com/bfe/apps/website/img/h/71194643-coffee-1440.jpg);
+  background-size: cover;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 5px 0 5px;
+  background: rgba(0, 0, 0, 0.3);
+}
+a {
+  color: aliceblue;
+}
+li {
+  font-size: 20px;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+.block-offer h1 {
+  text-align: center;
+  display: block;
+  padding: 20px 60px;
+}
+section {
+  padding-top: 250px;
+}
+.offer {
+  display: flex;
+  justify-content: center;
+}
+#tambah-margin {
+  margin-top: 80px;
+  margin-left: 20px;
+}
+.list-photos {
+  max-width: 30%;
+  height: 80px;
+}
+.list-photos h4 {
+  padding: 0 0 0 80px;
+}
+.photo {
+  max-width: 70%;
+}
